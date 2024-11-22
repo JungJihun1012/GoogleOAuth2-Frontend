@@ -5,6 +5,8 @@ const GoogleIcon = () => {
         <Container>
             <StyledH1>구글 로그인</StyledH1>
             <StyledImage />
+            <StyledDisplay>
+            </StyledDisplay>
         </Container>
     )
 }
@@ -19,6 +21,11 @@ const Container = styled.div`
     gap: 3rem;
 `;
 const StyledH1 = styled.h1`
+`;
+const StyledDisplay = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 const StyledImage = styled.div`
     background-image: url("/images/googleIcon.png");
