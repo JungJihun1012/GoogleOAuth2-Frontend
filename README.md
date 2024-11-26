@@ -34,7 +34,9 @@
 
 ## 스택(Stack)
 
-> 나중에 들어온 자료가 제일 먼저 출력
+> 나중에 들어온 자료가 제일 먼저 출력 <br>
+> LIFO(Last in First Out) 후입선출 <br>
+> 데이터를 삽입할 떄 한 쪽 끝에서 밀어넣고 꺼낼 떄는 같은 쪽에서 꺼내는 자료구조이다.
 
 * push (추가)
 * pop (삭제)
@@ -50,6 +52,8 @@
 * poll (삭제)
 * clear (전체 삭제)
 * peek (삭제 될 값 확인)
+* contains (반환 값이 존재 하면 true 없으면 false 반환)
+* isEmpty (반환 값이 공백 큐이면 true, 아니면 false 반환)
 
 > Queue 유사 메서드와의 차이
 
